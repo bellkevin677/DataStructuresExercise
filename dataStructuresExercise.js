@@ -49,25 +49,27 @@ console.log(sithLords[0][6]);
 
 console.log(sithLords.slice(-2, -1));
 
-const starWarsMovies = {
-    Object1: {
+const starWarsMovies = [
+    {
         episodeOne: "The Phantom Menace",
         episodeTwo: "Attack of the Clones",
         episodeThree: "Revenge of the Sith"
     },
-    Object2: {
+    {
         episodeFour: "A New Hope",
         episodeFive: "Empire Strikes Back",
         episodeSix: "Return of the Jedi"
     },
-    Object1: {
+    {
         episodeSeven: "The Force Awakens",
         episodeEight: "The Last Jedi",
         episodeNine: "The Rise of Skywalker"
     }
-};
+];
+console.log(starWarsMovies);
 
-// starWarsMovies.splice(1, 2, "Solo", "Rogue One");
+starWarsMovies.splice(1, 0, "Solo", "Rogue One");
+console.log(starWarsMovies);
 
 
 
